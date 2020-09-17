@@ -1,0 +1,30 @@
+{
+  "name": "fluxpointapi",
+  "version": "1.0.0",
+  "description": "An API wrapper for fluxpoint.dev.",
+  "main": "build/index.js",
+  "types": "src/types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "rm -rf build && tsc && echo Build Finished."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonovanDMC/FluxPointAPI.git"
+  },
+  "keywords": [
+    "fluxpoint",
+    "fluxpoint-api",
+    "fluxpoint.dev",
+    "api-wrapper"
+  ],
+  "author": "Donovan_DMC <dwddaniels262@gmail.com> (https://furry.cool)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DonovanDMC/FluxPointAPI/issues"
+  },
+  "homepage": "https://github.com/DonovanDMC/FluxPointAPI#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.1"
+  }
+}
